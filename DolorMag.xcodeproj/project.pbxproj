@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09950F3F152C798400038C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09950F3E152C798400038C03 /* UIKit.framework */; };
+		09950F41152C798400038C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09950F40152C798400038C03 /* Foundation.framework */; };
+		09950F43152C798400038C03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09950F42152C798400038C03 /* CoreGraphics.framework */; };
+		09950F49152C798400038C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09950F47152C798400038C03 /* InfoPlist.strings */; };
+		09950F4B152C798400038C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09950F4A152C798400038C03 /* main.m */; };
+		09950F4F152C798400038C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09950F4E152C798400038C03 /* AppDelegate.m */; };
+		09950F52152C798400038C03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09950F51152C798400038C03 /* ViewController.m */; };
+		09950F55152C798400038C03 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09950F53152C798400038C03 /* ViewController_iPhone.xib */; };
+		09950F58152C798400038C03 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09950F56152C798400038C03 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09950F3A152C798400038C03 /* DolorMag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolorMag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09950F3E152C798400038C03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09950F40152C798400038C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09950F42152C798400038C03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09950F46152C798400038C03 /* DolorMag-Info.plist */ = {isa = PBXFileReference; path = "DolorMag-Info.plist"; sourceTree = "<group>"; };
+		09950F48152C798400038C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09950F4A152C798400038C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09950F4C152C798400038C03 /* DolorMag-Prefix.pch */ = {isa = PBXFileReference; path = "DolorMag-Prefix.pch"; sourceTree = "<group>"; };
+		09950F4D152C798400038C03 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		09950F4E152C798400038C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09950F50152C798400038C03 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		09950F51152C798400038C03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09950F54152C798400038C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		09950F57152C798400038C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09950F37152C798400038C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09950F3F152C798400038C03 /* UIKit.framework in Frameworks */,
+				09950F41152C798400038C03 /* Foundation.framework in Frameworks */,
+				09950F43152C798400038C03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09950F2F152C798400038C03 = {
+			isa = PBXGroup;
+			children = (
+				09950F44152C798400038C03 /* DolorMag */,
+				09950F3D152C798400038C03 /* Frameworks */,
+				09950F3B152C798400038C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09950F3B152C798400038C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09950F3A152C798400038C03 /* DolorMag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09950F3D152C798400038C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09950F3E152C798400038C03 /* UIKit.framework */,
+				09950F40152C798400038C03 /* Foundation.framework */,
+				09950F42152C798400038C03 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09950F44152C798400038C03 /* DolorMag */ = {
+			isa = PBXGroup;
+			children = (
+				09950F4D152C798400038C03 /* AppDelegate.h */,
+				09950F4E152C798400038C03 /* AppDelegate.m */,
+				09950F50152C798400038C03 /* ViewController.h */,
+				09950F51152C798400038C03 /* ViewController.m */,
+				09950F53152C798400038C03 /* ViewController_iPhone.xib */,
+				09950F56152C798400038C03 /* ViewController_iPad.xib */,
+				09950F45152C798400038C03 /* Supporting Files */,
+			);
+			path = DolorMag;
+			sourceTree = "<group>";
+		};
+		09950F45152C798400038C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09950F46152C798400038C03 /* DolorMag-Info.plist */,
+				09950F47152C798400038C03 /* InfoPlist.strings */,
+				09950F4A152C798400038C03 /* main.m */,
+				09950F4C152C798400038C03 /* DolorMag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09950F39152C798400038C03 /* DolorMag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09950F5B152C798400038C03 /* Build configuration list for PBXNativeTarget "DolorMag" */;
+			buildPhases = (
+				09950F36152C798400038C03 /* Sources */,
+				09950F37152C798400038C03 /* Frameworks */,
+				09950F38152C798400038C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolorMag;
+			productName = DolorMag;
+			productReference = 09950F3A152C798400038C03 /* DolorMag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09950F31152C798400038C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 09950F34152C798400038C03 /* Build configuration list for PBXProject "DolorMag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09950F2F152C798400038C03;
+			productRefGroup = 09950F3B152C798400038C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09950F39152C798400038C03 /* DolorMag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09950F38152C798400038C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09950F49152C798400038C03 /* InfoPlist.strings in Resources */,
+				09950F55152C798400038C03 /* ViewController_iPhone.xib in Resources */,
+				09950F58152C798400038C03 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09950F36152C798400038C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09950F4B152C798400038C03 /* main.m in Sources */,
+				09950F4F152C798400038C03 /* AppDelegate.m in Sources */,
+				09950F52152C798400038C03 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09950F47152C798400038C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09950F48152C798400038C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09950F53152C798400038C03 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09950F54152C798400038C03 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		09950F56152C798400038C03 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09950F57152C798400038C03 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09950F59152C798400038C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09950F5A152C798400038C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09950F5C152C798400038C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DolorMag/DolorMag-Prefix.pch";
+				INFOPLIST_FILE = "DolorMag/DolorMag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09950F5D152C798400038C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DolorMag/DolorMag-Prefix.pch";
+				INFOPLIST_FILE = "DolorMag/DolorMag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09950F34152C798400038C03 /* Build configuration list for PBXProject "DolorMag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09950F59152C798400038C03 /* Debug */,
+				09950F5A152C798400038C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09950F5B152C798400038C03 /* Build configuration list for PBXNativeTarget "DolorMag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09950F5C152C798400038C03 /* Debug */,
+				09950F5D152C798400038C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09950F31152C798400038C03 /* Project object */;
+}
